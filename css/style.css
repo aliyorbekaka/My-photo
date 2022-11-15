@@ -1,0 +1,237 @@
+body {
+  height: 100vh;
+  background-color: #ffff  ;
+}
+
+:root {
+  --background: black;
+}
+
+/* Header styles */
+
+
+header {
+  background: var(--background);
+  color: white;
+}
+
+.navbar-nav {
+  margin: auto;
+  margin-right: 0 !important;
+}
+
+/* Home section styles */
+.home-section {
+  height: 90%;
+}
+.home-section_info {
+  width: 70%;
+}
+
+.wrapper{
+  background-color: black;
+
+}
+
+.wrapper button,h1,p{
+  color: aliceblue;
+}
+
+.wrapper button{
+  background-color: aliceblue;
+  border-radius: 50px;
+  border: 1px solid rgb(255, 255, 255);
+  color: aliceblue;
+}
+
+.home-section_img img {
+  width: 100%;
+}
+.home_icon{
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* about me styles */
+.about-me{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.about-me button{
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgb(175, 170, 170);
+}
+
+.about-me-img{
+  background-color: blue;
+}
+
+.about-me_info p,h5{
+  color: #000;
+}
+
+.bi{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.bi1{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.bi2{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.bi3{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.feauters{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.feauters h1{
+  color: #000;
+}
+
+.icon2{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.icon1{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.card h5,p{
+  color: #000;
+}
+
+.products{
+  text-align: center;
+}
+
+.products h1{
+color: #000;
+}
+
+.box h1,h3{
+  color: #000;
+}
+/* tsetimonial  */
+.testimonial{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonial h1{
+  color: #000;
+}
+
+.testimonial-cards{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  gap: 60px;
+  margin-top: 6pc;
+}
+
+.testimonial-icons{
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  margin-bottom: 10px;
+  gap: 20px;
+  color: gold;
+}
+
+/* faq */
+
+.faq h1,h4{
+  color: #000;
+  text-align: center;
+}
+
+.faq {
+  margin-top: 50px;
+}
+
+.faq-title{
+  text-align: center;
+}
+
+.faq-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10pc;
+  margin-top: 50px  ;
+}
+
+/* newsletter */
+.newsletter {
+  text-align: center;
+  margin-top: 80px;
+ }
+ 
+.mb-3{
+  text-align: center;
+} 
+
+.newsletter h1{
+ color: #000;
+}
+
+
+/* contact */
+
+.contact{
+  text-align: center;
+}
+
+.contact h1{
+  color: #000;
+}
+
+/* feauters */
+
+.feauters{
+  text-align: center;
+}
+
+.feauters-icons{
+  display: flex;
+  color: #000;
+  width: 60px;
+  gap: 20px;
+}
